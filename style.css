@@ -10,6 +10,11 @@
   padding-bottom: 20px;
 }
 
+/*Para que al oprimir elementos de la barra de navegación baje de manera suave*/
+html{
+  scroll-behavior: smooth;
+}
+
 #Aboutme {
   padding-top: 20px;
 }
