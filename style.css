@@ -1,3 +1,8 @@
+/*El documento de estilos posee código legible, las etiquetas permiten la rapida identificación de las secciones del template 
+  a la cual van a ser aplicados. El único punto, en mi opinión, a mejorar es que las etiquetas #Aboutme, #Academic ... relacionadas
+  a las secciones del contenido se pudo referenciar por una etiqueta,clase o id más genérico y de esta forma no tener 5 etiquetas diferentes
+  con el mismo contenido*/
+
 .main {
   background-color: lightblue;
 }
