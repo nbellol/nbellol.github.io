@@ -59,6 +59,7 @@
         <div id="Aboutme">
           <h1 style="text-align: center">About Me</h1>
           <div class="card-group">
+            <!--Quizá achicar la foto, ni siquiera viéndola en pantalla grande alcanza a verse completa-->
             <div class="card" style="width: 80%">
               <img
                 class="card-img-top"
@@ -102,6 +103,7 @@
                             instead.
                           </p>
                         </audio>
+                        <!--La ubicación de los contactos es redundante, ya que aparece en el footer-->
                         <li><strong>Contactos:</strong></li>
                         <a href="https://www.facebook.com/nicolasbello99"
                           ><img
@@ -216,6 +218,7 @@
           </div>
         </div>
         <div id="Projects">
+          <!--Quizá intentar que las imágenes sean del mismo tamaño o utilizar cards de bootstrap-->
           <h1 style="text-align: center">Projects</h1>
           <div class="container-fluid">
             <div class="row">
@@ -312,6 +315,7 @@
             <div class="col-sm-1 col-md-1 col-lg-1"></div>
           </div>
           <h2>Language Abilities</h2>
+          <!--No entiendo los botones de "see profile y las banderas creo que tienen mucho protagonismo"-->
           <div class="row">
             <div class="col-sm-0 col-md-1 col-lg-1"></div>
             <div class="col-sm-12 col-md-3 col-lg-3">
@@ -377,29 +381,34 @@
         <div id="Form">
           <h1 style="text-align: center">Contact Form</h1>
           <form action="/my-handling-form-page" method="post">
-            <ul>
-              <li>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="user_name" />
-              </li>
-              <li>
-                <label for="mail">E-mail:</label>
-                <input type="email" id="mail" name="user_email" />
-              </li>
-              <li>
-                <label for="msg">Message:</label>
-                <textarea id="msg" name="user_message"></textarea>
-              </li>
-              <li class="button">
-                <button type="submit">Send your message</button>
-              </li>
-            </ul>
+            <div class="col-10 mx-auto">
+              <ul>
+                <li>
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="user_name" />
+                </li>
+                <li>
+                  <label for="mail">E-mail:</label>
+                  <input type="email" id="mail" name="user_email" />
+                </li>
+                <li>
+                  <label for="msg">Message:</label>
+                  <!--Para mayor uniformidad en el form metí el br-->
+                  <br />
+                  <textarea id="msg" name="user_message"></textarea>
+                </li>
+                <li class="button">
+                  <button type="submit">Send your message</button>
+                </li>
+              </ul>
+            </div>
           </form>
         </div>
       </div>
     </main>
     <footer>
-      <p class="foot" style="text-align: center">Contact Information:</p>
+      <!--Puse el título para que se vea más como un título-->
+      <h3 class="foot" style="text-align: center">Contact Information:</p>
       <p class="foot" style="text-align: center">
         <strong>Telephone:</strong> +57 3163513351
       </p>
