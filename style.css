@@ -2,12 +2,14 @@
   background-color: lightblue;
 }
 
-.inicio {
-  width: 100%;
-  height: 700px;
-  background-image: url("./media/fondocrop.jpg");
-  background-size: 100% 100%;
-  padding-bottom: 20px;
+.container {
+  position: relative;
+  text-align: center;
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
 }
 
 #Aboutme {
